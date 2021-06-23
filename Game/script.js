@@ -295,4 +295,4 @@ class Game {
         requestAnimationFrame(() => { this.tick(); });
     }
 }
-let game = new Game();
+let game = new Game(); 
