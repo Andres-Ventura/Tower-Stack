@@ -22,7 +22,7 @@ class Stage {
         this.renderer.setClearColor('#D0CBC7', 1);
         this.container.appendChild(this.renderer.domElement);
         // scene
-        this.scene = new THREE.Scene();
+        this.scene = new THREE.Scene(); 
         // camera
         let aspect = window.innerWidth / window.innerHeight;
         let d = 20;
