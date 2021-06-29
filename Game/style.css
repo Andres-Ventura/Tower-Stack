@@ -90,7 +90,7 @@ body {
   transform: translatey(0px) scale(1);
 }
 #container.playing #instructions {
-  opacity: 1;
+  opacity: 0.9;
 }
 #container.ready .game-ready #start-button {
   opacity: 1;
