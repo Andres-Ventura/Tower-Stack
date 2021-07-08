@@ -231,7 +231,7 @@ class Game {
     restartGame() {
         this.updateState(this.STATES.RESETTING);
         let oldBlocks = this.placedBlocks.children;
-        let removeSpeed = 0.2;
+        let removeSpeed = 0.15;
         let delayAmount = 0.02;
         for (let i = 0; i < oldBlocks.length; i++) {
             TweenLite.to(oldBlocks[i].scale, removeSpeed, { x: 0, y: 0, z: 0, delay: (oldBlocks.length - i) * delayAmount, ease: Power1.easeIn, onComplete: () => this.placedBlocks.remove(oldBlocks[i]) });
